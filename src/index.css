@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  transition: 250ms ease-in-out;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  text-transform: uppercase;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 4px;
+  background-color: #0e4f8b;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-block-start: 0;
+  padding-block-end: 0;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+
+  padding: 0 8px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  outline: none;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 26px;
+}
+
+/* primary: '#0e4f8b',
+  primary100: '#0d3e7a',
+  primary200: '#2f6fad',
+  primary300: '#4F8FCF',
+  primary400: '#B0968385',
+  primary500: '#B99A86',
+  primary600: '#AA9684',
+  primarydark: '#103961',
+  primarydark100: '#214a72',
+  secondary: '#AD4740',
+  tertiary: '#E06826',
+  tertiary100: '#F17937',
+  tertiary200: '#D05715',
+  // tertiary: '#D54E2A',
+  darkgray: '#1D1D1D',
+  darkgray100: '#343434',
+  gray: '#E6EAEE',
+  gray100: '#EEF1F4',
+  gray200: '#EDEDEE',
+  gray300: '#DDDEDF',
+  gray400: '#e3e8eb;',
+  gray500: '#B7B7B7',
+  black: '#000000',
+  black100: '#222121',
+  white: '#FFFFFF',
+  danger: '#CA0F0F',
+  success: '#00d23d',
+  text: '#000000c2', */
