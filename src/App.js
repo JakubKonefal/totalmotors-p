@@ -1,8 +1,13 @@
 import styled from 'styled-components';
+import { Navigate } from 'react-router-dom';
 
 const Header = styled.header``;
 
-function App() {
+function AppRoute() {
+  const authenticated = false;
+
+  if (!authenticated) return <Navigate to='/login' />;
+
   return (
     <div>
       <Header>Header</Header>
@@ -10,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoute;
